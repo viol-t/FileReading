@@ -22,6 +22,11 @@ public class ReadAndWriteCoursesList {
         }
     }
 
+    /**
+     *
+     * @param courseName - String
+     * @param filepath - String
+     */
     public void saveFile(String courseName, String filepath){
 
         try (
